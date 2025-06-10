@@ -1,0 +1,7 @@
+gdown
+gensim
+numpy
+scikit_learn
+sentence_transformers
+torch
+tqdm
