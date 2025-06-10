@@ -1,0 +1,25 @@
+\begin{table*}
+    \centering
+    \begin{tabular}{pppppp}
+\hline
+ Pre-Trained Bangla Language Model   & Architecture   &   Number of Trainable parameters(Millions) & Dataset Name                                       & Dataset Size(GB)   &   Number of Tokens & Data source                                                            \\
+\hline
+ csebuetnlp/banglabert,              & Electra        &                                   110.618  & Bangla2B+                                          & 27.5GB             &              32000 & Crawling 110 popular Bangla websites.                                  \\
+ saiful9379/Bangla\_GPT2,             & GPT2           &                                   111.487  & Bangla Newspaper dataset                           & 250mb              &              50000 & prothom alo                                                            \\
+ flax-community/gpt2-bengali,        & GPT2           &                                   124.44   & mc4( Bengali)                                      & 29GB               &              50256 & Based on Common Crawl dataset(Crawling the internet)                   \\
+ ritog/bangla-gpt2,                  & GPT2           &                                   124.44   & mc4( Bengali)                                      & 29GB               &              50265 & Based on Common Crawl dataset(Crawling the internet)                   \\
+ csebuetnlp/banglat5,                & T5             &                                   247.578  & Bangla2B+                                          & 27.5GB             &              32100 & Crawling 110 popular Bangla websites.                                  \\
+ neuropark/sahajBERT,                & Albert         &                                    18.1055 & Wikipedia in Bengali and the Bengali part of OSCAR & 238MB+15.1 GB      &              32000 & Wikipedia,Web                                                          \\
+ Kowsher/bangla-bert,                & Bert           &                                   165.054  & BanglaLM                                           & 40GB               &             101975 & websites, including newspapers, social networks, blog sites, Wikipedia \\
+ csebuetnlp/banglishbert,            & Electra        &                                   110.618  & Bangla2B+                                          & 35GB               &              32000 & Crawling 110 popular Bangla websites.                                  \\
+ sagorsarker/bangla-bert-base,       & Bert           &                                   165.092  & Bengali commoncrawl corpus from OSCAR
+and Bengali Wikipedia Dump Dataset                                                    & 17\textasciitilde{}GB(approx)      &             101975 & Web,Wikipedia                                                          \\
+ text\_generation\_bangla\_model        & GPT2           &                                   124.44   & BanglaCLM                                          & 26.24GB            &              50256 & OSCAR 
+Wikipedia dump
+ProthomAlo 
+Kalerkantho                                                                        \\
+\hline
+\end{tabular}
+\caption{Bangla pre-trained language models}
+\label{tab:models}
+\end{table*}
