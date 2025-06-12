@@ -8,6 +8,8 @@ You can find our dataset on mendeley data.
 
 https://data.mendeley.com/datasets/y3x569kk9t/2
 
+Paper link will be posted once the camera ready version comes online.
+
 # Usage
 It is recommended to open a virtual env.
 Install the requirements
