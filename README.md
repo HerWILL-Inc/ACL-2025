@@ -26,6 +26,7 @@ run the script
 python  analyze_bias.py --modelname "csebuetnlp/banglabert"
 ```
 
+#Citation
 If you use our code/ ideas from our paper, please cite
 ```
 @inproceedings{arnob-etal-2025-assessing,
